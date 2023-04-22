@@ -36,14 +36,14 @@ function loginPage()
 function visible()
 {
     form[0].elements[1].type="text"
-    document.getElementById("passVis").src="../technology/assets/logo/eyesopen.jpg"
+    document.getElementById("passVis").src="./assets/logo/eyesopen.jpg"
     document.getElementById("passVis").style.transform="rotateY(360deg)"
     document.getElementById("passVis").style.transition="transform 0.5s"
 }
 function invisible()
 {
     form[0].elements[1].type="password"
-    document.getElementById("passVis").src="../technology/assets/logo/eyesclose.jpg"
+    document.getElementById("passVis").src="./assets/logo/eyesclose.jpg"
     document.getElementById("passVis").style.transform="rotateY(0deg)"
     document.getElementById("passVis").style.transition="transform 0.5s"
 }
